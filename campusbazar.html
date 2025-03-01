@@ -1,0 +1,103 @@
+<html>
+<head>
+    <title>Campus Bazaar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <style>
+        .bg-custom-purple {
+            background-color: #602e9e;
+        }
+        .text-custom-purple {
+            color: #602e9e;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-roboto">
+    <header class="bg-custom-purple text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Campus Bazaar</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a class="hover:underline" href="#">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container mx-auto mt-8">
+        <section class="text-center mb-8">
+            <h2 class="text-3xl font-bold mb-4">Welcome to Campus Bazaar</h2>
+            <p class="text-gray-700 mb-4">A one-stop marketplace for students to buy, sell, and trade essentials within the campus community.</p>
+            <div class="flex justify-center">
+                <input id="search-bar" class="w-1/2 p-2 border border-gray-300 rounded-lg" placeholder="Search for items..." type="text"/>
+            </div>
+        </section>
+        <section id="items-section" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <img alt="Image of a lab coat for sale" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/0EWc5ThO9BHbC-w3ibnYr79mSZH-LXSycFZ3xdmNuCU.jpg" width="300"/>
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2">Lab Coat</h3>
+                    <p class="text-gray-700 mb-4">A gently used lab coat, perfect for chemistry or biology labs.</p>
+                    <div class="flex justify-between items-center">
+                        <button class="bg-custom-purple text-white px-4 py-2 rounded-lg">Buy</button>
+                        <button class="bg-gray-200 text-custom-purple px-4 py-2 rounded-lg">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <img alt="Image of a stack of college notes for sale" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/C3nlyoe_G2ScyeLPDMXyjM9qKJ8ZfJu9uZDoYJR9Bww.jpg" width="300"/>
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2">College Notes</h3>
+                    <p class="text-gray-700 mb-4">Comprehensive notes for first-year physics. Great for exam prep!</p>
+                    <div class="flex justify-between items-center">
+                        <button class="bg-custom-purple text-white px-4 py-2 rounded-lg">Buy</button>
+                        <button class="bg-gray-200 text-custom-purple px-4 py-2 rounded-lg">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <img alt="Image of a used textbook for sale" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/doz7TwY2fLkS6TIkiriL6V7Fi3Pc99RiW5MvwSAqpN8.jpg" width="300"/>
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2">Textbook</h3>
+                    <p class="text-gray-700 mb-4">"Introduction to Algorithms" - a must-have for computer science students.</p>
+                    <div class="flex justify-between items-center">
+                        <button class="bg-custom-purple text-white px-4 py-2 rounded-lg">Buy</button>
+                        <button class="bg-gray-200 text-custom-purple px-4 py-2 rounded-lg">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <img alt="Image of a used calculator for sale" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/F2Nq5OEVBFOB76calCeNocBYeReizZTP8s2K5OjFqO8.jpg" width="300"/>
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2">Scientific Calculator</h3>
+                    <p class="text-gray-700 mb-4">A reliable scientific calculator, perfect for math and engineering courses.</p>
+                    <div class="flex justify-between items-center">
+                        <button class="bg-custom-purple text-white px-4 py-2 rounded-lg">Buy</button>
+                        <button class="bg-gray-200 text-custom-purple px-4 py-2 rounded-lg">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <img alt="Image of a used backpack for sale" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/px_C-U3dlbagRJGgr8170cMih1ymEb5mEXQB7VKqeP8.jpg" width="300"/>
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2">Backpack</h3>
+                    <p class="text-gray-700 mb-4">A sturdy backpack with multiple compartments, ideal for carrying books and a laptop.</p>
+                    <div class="flex justify-between items-center">
+                        <button class="bg-custom-purple text-white px-4 py-2 rounded-lg">Buy</button>
+                        <button class="bg-gray-200 text-custom-purple px-4 py-2 rounded-lg">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <img alt="Image of a used laptop for sale" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/ip9fdOBH4yxGC8uNlhsrn1BmTpDQb4ngSCGDOsZgYlI.jpg" width="300"/>
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2">Laptop</h3>
+                    <p class="text-gray-700 mb-4">A used laptop in good condition, suitable for everyday tasks and assignments.</p>
+                    <div class="flex justify-between items-center">
+                        <button class="bg-custom-purple text-white px-4 py-2 rounded-lg">Buy</button>
+                        <button class="bg-gray-200 text-custom-purple px-4 py-2 rounded-lg">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main></body></html>

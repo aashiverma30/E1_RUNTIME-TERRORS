@@ -1,0 +1,27 @@
+body {
+    background-color: #e6d7f8;
+}
+
+.ride-card {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.confirm-button {
+    background-color: #602e9e;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+.confirm-button:hover {
+    background-color: #4b1f7c;
+}

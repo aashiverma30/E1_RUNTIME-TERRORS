@@ -1,0 +1,32 @@
+/* Change Buddy Hub text to white */
+.header-bg {
+    background-color: #602e9e;
+}
+
+.header-bg a span {
+    color: white; /* White text */
+    font-weight: bold;
+}
+
+/* Carpool & Campus Bazaar card styling */
+.card-custom {
+    background-color: #b19cd9; /* Light Purple */
+    color: white; /* White text */
+}
+
+.card-custom .card-header {
+    background-color: #a084ca; /* Slightly darker purple */
+    color: white;
+}
+
+.card-custom .btn {
+    background-color: white; /* White button */
+    color: #602e9e; /* Purple text */
+    font-weight: bold;
+    border: none;
+}
+
+.card-custom .btn:hover {
+    background-color: #4a2175; /* Darker purple on hover */
+    color: white;
+}

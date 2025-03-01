@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Payment Method</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="pay.css">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+        <h2 class="text-2xl font-bold mb-4">Select Payment Method</h2>
+        <div class="space-y-4">
+            <div class="payment-option" id="creditCard">
+                <img alt="Credit card icon" class="payment-icon" src="https://storage.googleapis.com/a1aa/image/dqT7AyHBCOE3syoG9UQQ0WRuU49xAj1j-ABD6zHzdVk.jpg"/>
+                <div>
+                    <h3 class="text-lg font-semibold">Credit Card</h3>
+                    <p class="text-gray-500">Visa, MasterCard, American Express</p>
+                </div>
+            </div>
+            <div class="payment-option" id="paypal">
+                <img alt="PayPal icon" class="payment-icon" src="https://storage.googleapis.com/a1aa/image/y1ORbNkIme2-kP4-u7XSquIJ6QbyOsfdf8ydjUgePys.jpg"/>
+                <div>
+                    <h3 class="text-lg font-semibold">PayPal</h3>
+                    <p class="text-gray-500">Use your PayPal account</p>
+                </div>
+            </div>
+            <div class="payment-option" id="bankTransfer">
+                <img alt="Bank transfer icon" class="payment-icon" src="https://storage.googleapis.com/a1aa/image/iokx1XX6e7gSRg_2OZFRoFgwLk8GP11tlMbcXvTKXu8.jpg"/>
+                <div>
+                    <h3 class="text-lg font-semibold">Bank Transfer</h3>
+                    <p class="text-gray-500">Direct bank transfer</p>
+                </div>
+            </div>
+        </div>
+        <button class="confirm-button" id="confirmButton">Confirm</button>
+    </div>
+    <script src="pay.js"></script>
+</body>
+</html>
